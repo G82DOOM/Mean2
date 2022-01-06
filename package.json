@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --port $MEAN-3_SERVICE_PORT --publicHost http://mean-3-andrew3.apps.eu45.prod.nextcle.com/",
+    "start": "ng serve --host 0.0.0.0 --port $FRONTEND_SERVICE_PORT --publicHost http://frontend-andrew3.apps.eu45.prod.nextcle.com/",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
