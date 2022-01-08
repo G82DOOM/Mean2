@@ -7,7 +7,7 @@ import { Todo } from '../models/todo';
 })
 export class TodosService {
 
-  private baseUrl : string ="http://backend2-andrew3.apps.eu45.prod.nextcle.com/";
+  private baseUrl : string ="http://backend2-andrew3.apps.eu45.prod.nextcle.com";
 
   constructor(private _HttpClient: HttpClient) { }
 
