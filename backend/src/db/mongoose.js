@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-require('dotenv').config;
+
 mongoose.connect('mongodb://mongo:mongo@'+process.env.MONGODB_SERVICE_HOST+':27017/todoApp', 
 {
     useNewUrlParser: true, 
