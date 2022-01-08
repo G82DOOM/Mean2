@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const todoRouter = require('./routers/todoRouter');
 require('./db/mongoose');
